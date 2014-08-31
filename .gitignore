@@ -1,0 +1,6 @@
+*
+!wp-content
+!package.json
+!gruntfile.js
+!.gitignore
+!sql_dump

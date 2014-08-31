@@ -1,0 +1,33 @@
+.site-title.display-logo img {
+  width: 194px;
+}
+
+.code-samples-lists {
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+
+.code-samples-answer p {
+  margin-left: -25px;
+}
+
+.code-samples-header {
+  border-bottom: solid 2px #C0550D;
+}
+
+.postbox {
+  border: dashed 2px;
+  padding: 10px;
+}
+
+.add-sample-title {
+  cursor: pointer;
+}
+
+.postbox {
+  display: none;
+}
+
+.code-sample-input {
+  height: 150px;
+}
