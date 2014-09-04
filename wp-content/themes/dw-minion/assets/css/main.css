@@ -1650,7 +1650,7 @@ textarea {
   a[href^="#"]:after {
     content: "";
   }
-  pre,
+  /*pre,*/
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
@@ -2382,7 +2382,7 @@ address {
 [class*="templatestypography"] .bs-docs-example-images img {
   margin: 0 20px;
 }
-code,
+/*code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
@@ -2426,7 +2426,7 @@ pre code {
   white-space: pre-wrap;
   background-color: transparent;
   border: 0;
-}
+}*/
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;

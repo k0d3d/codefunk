@@ -72,8 +72,12 @@ while ($code_samples->have_posts()) :
       </p>
       <pre class="line-numbers">
         <code class="language-javascript">
-          <?php the_content(); ?>
-        </code>
+          <?php //the_content(); ?>
+  var linesNum = (1 + env.code.split('\n').length);
+  var lineNumbersWrapper;
+
+  lines = new Array(linesNum);
+  lines = lines.join('<span></span>');        </code>
       </pre>
     </div>
   </li>
